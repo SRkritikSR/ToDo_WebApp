@@ -14,6 +14,8 @@ import Personaldetails from './components/Personaldetails';
 
 
 function App(props) {
+  let EmptyAr={Todo: "good boy", time:"lalal", date:"bla"};
+  console.log(typeof(EmptyAr));
 
   return (
     <>
@@ -31,6 +33,10 @@ function App(props) {
             <Route path="/Personaldetails">
               <Personaldetails/>
             </Route>
+            {/* <Route path="/DisplayTodo">
+              <DisplayTodo UserData={EmptyAr}/>
+              
+            </Route> */}
             {/* <Route path="/">
               <App/>
             </Route> */}

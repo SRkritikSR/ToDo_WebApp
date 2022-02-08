@@ -9,9 +9,9 @@ import App from '../App';
 export default function CreateTodo(props) {
 
     const [TodoAR, UpdateTodoAR] = useState([]);
-    const [Todo, NewTodo] = useState([]);
-    const [Time, NewTime] = useState([]);
-    const [Date, NewDate] = useState([]);
+    const [Todo, NewTodo] = useState("");
+    const [Time, NewTime] = useState("");
+    const [Date, NewDate] = useState("");
     const UpdateText = (event) => {
         NewTodo(event.target.value);
     }
@@ -28,6 +28,7 @@ export default function CreateTodo(props) {
         // checkes if the inpyt is blank or not
         //then updates the values of todo and time to the array that is to be
         //given to display todo through props
+        console.log(Todo,!Todo, Time,!Time, Date,!Date);
 
         if (!Todo || !Time || !Date) {
             alert("please enter and submit again Blank not allowed");

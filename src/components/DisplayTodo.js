@@ -26,11 +26,11 @@ export default function DisplayTodo({ UserData, DeleteThis }) {
 
 
         <div className="my-5" style={{color: 'red'}}>
-
-
+         
 
 
             {
+                
                 UserData.map((elem) => {
                     return (
                         <div className="input-group" key={UserData.indexOf(elem)} >
