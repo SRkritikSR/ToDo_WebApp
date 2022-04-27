@@ -1,4 +1,4 @@
-//app.js, index.js makes the styles apply to all of the component head.
+    //app.js, index.js makes the styles apply to all of the component head.
 import { useState } from "react";
 import DisplayTodo from "./DisplayTodo";
 // import Navbar from './Navbar';
