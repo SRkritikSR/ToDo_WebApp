@@ -7,22 +7,12 @@ import CreateTodo from './components/CreateTodo';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
   
 } from "react-router-dom";
 import Personaldetails from './components/Personaldetails';
 
 
 function App(props) {
-  // let EmptyAr={Todo: "good boy", time:"lalal", date:"bla"};
-  // console.log(typeof(EmptyAr));
-  {/* 
-      <DisplayTodo />
-      <CreateTodo/> 
-      <Navbar />
-      <CreateTodo/>
-      <Personaldetails/>
-      <DisplayTodo/> */}
 
   return (
 
