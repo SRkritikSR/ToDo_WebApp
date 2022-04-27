@@ -1,7 +1,7 @@
     // import { useState } from "react";
-    import CreateTodo from './CreateTodo';
-    import Navbar from './Navbar';
-    import React, { createFactory } from "react";
+    // import CreateTodo from './CreateTodo';
+    // import Navbar from './Navbar';
+    import React from "react";
     // import {
     //     BrowserRouter as Router,
     //     Switch,
@@ -16,7 +16,7 @@
 
 
     export default function DisplayTodo({ UserData, DeleteThis }) {
-        let abc=0
+        // let abc=0
         // const RewardThis=()=> {
         //     window.alert("100 points for you wohooo!!!")
         //     console.log("hello")
