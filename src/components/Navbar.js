@@ -1,19 +1,16 @@
 
-import { useState } from "react";
-import CreateTodo from "./CreateTodo.js";
-import DisplayTodo from "./DisplayTodo.js";
+// import { useState } from "react";
 
-import Personaldetails from "./Personaldetails.js";
+import DisplayTodo from "./DisplayTodo";
+
 
 
 
 
 export default function Navbar(props) {
-    const [UserName,UpdateUserName]=useState("");
     return (
-        <>
-        <div>
-        </div>
+    
+    
         
            
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -39,13 +36,16 @@ export default function Navbar(props) {
 
                     </div>
                 </div>
-            </nav>
-            <div>
-                <h1 className="text-center">Hello UserName</h1>
-            </div>
+             </nav>
+            // <div>
+            //     <>
+            //     <DisplayTodo />
+            //     </>
+            //     <h1 className="text-center">Hello UserName</h1>
+            // </div> //
 
 
-        </>
+        
 
     )
 
